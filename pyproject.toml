@@ -1,0 +1,22 @@
+[project]
+name = "deepeval-vllm"
+version = "0.1.0"
+description = "Compatibility wrapper for DeepEval's LocalModel that adds native structured output support."
+readme = "README.md"
+authors = [
+    { name = "profanta", email = "dev@profanta.de" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "deepeval>=4.1.8",
+    "openai>=3.1.0",
+    "pydantic>=2.13.4",
+]
+
+#[build-system]
+#requires = ["uv_build>=0.11.3,<0.12.0"]
+#build-backend = "uv_build"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
