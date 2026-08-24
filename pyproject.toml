@@ -1,6 +1,6 @@
 [project]
 name = "deepeval-vllm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Compatibility wrapper for DeepEval's LocalModel that adds native structured output support."
 readme = "README.md"
 authors = [
