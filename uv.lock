@@ -375,20 +375,14 @@ wheels = [
 
 [[package]]
 name = "deepeval-vllm"
-version = "0.1.1"
+version = "0.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "deepeval" },
-    { name = "openai" },
-    { name = "pydantic" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "deepeval", specifier = ">=4.1.8" },
-    { name = "openai", specifier = ">=3.1.0" },
-    { name = "pydantic", specifier = ">=2.13.4" },
-]
+requires-dist = [{ name = "deepeval", specifier = ">=4.1.8" }]
 
 [[package]]
 name = "distro"
